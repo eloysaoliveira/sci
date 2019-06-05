@@ -1,0 +1,38 @@
+/*Universal*/
+.bg-black{
+	background: black;
+}
+
+/*ALTERAÇÃO FEITA PARA O RODAPE FICAR SEMPRE EM BAIXO*/
+.site{
+	min-height: 95vh
+}
+
+/*Editando a capa da pagina principal*/
+
+.capa{
+	height: 250px;
+}
+
+
+
+/*Editando menu*/
+ul.navbar-nav  > li{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.active{
+	border-bottom: 3px solid white;
+}
+
+
+
+/*Editando a imagem de cada artigo*/
+.img-article{
+	height: 350px;
+}
+
+.img-article-min{
+	height: 200px;
+}
