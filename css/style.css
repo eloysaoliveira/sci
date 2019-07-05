@@ -36,3 +36,19 @@ ul.navbar-nav  > li{
 .img-article-min{
 	height: 200px;
 }
+
+
+
+
+/* Galery */
+
+.galery__row{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.galery__row > div{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
