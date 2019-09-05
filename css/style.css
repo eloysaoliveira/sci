@@ -20,6 +20,8 @@
 
 
 
+
+
 /*Editando menu*/
 ul.navbar-nav  > li{
 	padding-left: 50px;
@@ -57,15 +59,7 @@ ul.navbar-nav  > li{
 }
 
 /*Login*/
-/*
-.bg-box{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	background: #A9E2F3;
 
-}
-*/
 .login{
 	display: flex;
 	justify-content: center;
@@ -133,4 +127,35 @@ ul.navbar-nav  > li{
 	background: #28B463;
 	color: white;
 	width: 90% !important;
+}
+
+/*Artigos*/
+.container-body{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 100vh;
+	grid-template-areas: 
+						 "m a"
+}
+
+header{
+	background:yellow;
+	grid-area: "h";
+}
+
+main{
+	background: blue;
+	grid-area: "m";
+}
+
+aside{
+	background:green;
+	grid-area: "a";
+}
+
+
+
+footer{
+	background:pink;
+	grid-area: "f";
 }
