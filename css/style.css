@@ -9,6 +9,9 @@
 .bg-blue{
 	background: #0597F2;
 }
+.color-fonte{
+	color: white;
+}
 
 /*ALTERAÇÃO FEITA PARA O RODAPE FICAR SEMPRE EM BAIXO*/
 .site{
@@ -21,13 +24,6 @@
 	height: 250px;
 }
 
-.caixa{
-	padding: 65px;
-}
-
-.espaco-top{
-	padding: 10px;
-}
 
 
 
@@ -68,6 +64,41 @@ ul.navbar-nav  > li{
 	margin: 0 !important;
 }
 
+/*Parallax*/
+.header-site{
+	background-image: url(../img/quimica-header.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #FFFFFF;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+.content-size{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.img-site{
+	background-image: url(../img/fisica.jpeg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #FFFFFF;
+	padding-top: 200px;
+	padding-bottom: 200px;
+
+}
+.footer-site{
+	padding-top: 1px;
+}
+
+
+
+
 /*Login*/
 
 .login{
@@ -104,7 +135,7 @@ ul.navbar-nav  > li{
 
 .input-login{
 	width: 100%;
-	border-color: #0597F2;
+	border-color: #566573;
 }
 
 .title-login{
@@ -112,7 +143,6 @@ ul.navbar-nav  > li{
 	text-transform: uppercase;
 	font-weight: bolder;
 	font-family: Palatino;
-
 }
 
 .btn-container{
@@ -122,7 +152,7 @@ ul.navbar-nav  > li{
 
 .box .btn-login{
 	background: #FFF;
-	border: 2px solid #0597F2;
+	border: 2px solid #28B463;
 	font-weight: bold;
 	text-transform: uppercase;
 	transition: 0.25s;
@@ -135,62 +165,38 @@ ul.navbar-nav  > li{
 
 .btn-login:hover{
 	text-decoration: none;
-	background: #0597F2;
+	background: #28B463;
 	color: white;
 	width: 90% !important;
 }
 
-.cadastro{
-	display: flex;
-	justify-content: center;
+/*Artigos*/
+.container-body{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 100vh;
+	grid-template-areas: 
+						 "m a"
 }
 
-.box .btn-cadastro{
-	background: #FFF;
-	border: 2px solid #0597F2;
-	font-weight: bold;
-	text-transform: uppercase;
-	transition: 0.25s;
-	padding: 5px;
-	border-radius: 6px;
-	color: black;
-	width: 60% !important;
-	text-align: center;
+header{
+	background:yellow;
+	grid-area: "h";
 }
 
-.btn-cadastro:hover{
-	text-decoration: none;
-	background: #0597F2;
-	color: white;
-	width: 90% !important;
+main{
+	background: blue;
+	grid-area: "m";
 }
 
-.input-cadastro{
-	width: 100%;
-	border-color: #0597F2;
+aside{
+	background:green;
+	grid-area: "a";
 }
 
 
 
-
-.control {
-    font-size: 1rem;
-    position: relative;
-    text-align: left;
-}
-.register-panel-control {
-    margin-bottom: 16px;
-}
-
-.register-panel-label {
-    color: #999;
-    display: inline-block;
-    margin-bottom: 8px;
-    font-size: .875rem;
-    margin-left: 16px;
-}
-
-span {
-    font-style: inherit;
-    font-weight: inherit;
+footer{
+	background:pink;
+	grid-area: "f";
 }
