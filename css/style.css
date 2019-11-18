@@ -12,6 +12,10 @@
 .color-fonte{
 	color: white;
 }
+.boas-vindas{
+	font-size: 
+
+}
 
 /*ALTERAÇÃO FEITA PARA O RODAPE FICAR SEMPRE EM BAIXO*/
 .site{
@@ -66,7 +70,7 @@ ul.navbar-nav  > li{
 
 /*Parallax*/
 .header-site{
-	background-image: url(../img/quimica-header.jpg);
+	background-color: #044BD9;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -77,23 +81,20 @@ ul.navbar-nav  > li{
 }
 
 .content-size{
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top:300px;
+	padding-bottom: 300px;
 }
 
 .img-site{
-	background-image: url(../img/fisica.jpeg);
+	background-color: #F21905;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	color: #FFFFFF;
 	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-bottom: 300px;
 
-}
-.footer-site{
-	padding-top: 1px;
 }
 
 
