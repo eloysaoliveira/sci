@@ -201,3 +201,82 @@ footer{
 	background:pink;
 	grid-area: "f";
 }
+
+
+
+
+
+/* Editando a pagina individual */
+.title-article{
+	font-size: 32px;
+    line-height: 32px;
+	letter-spacing: -.5px;
+	margin-bottom: 15px;
+	margin-top: 35px;
+	font-family: ; /* Escolher fonte para o titulo */
+	font-weight: bold;
+	font-size: 2.4em;
+}
+
+.subtitle-article{
+	color: #aaaaaa;
+	margin-bottom: 15px;
+}
+
+.author{
+	display: flex;
+	flex-direction: column;
+	font-size: 0.8em;
+	margin-bottom: 15px;
+}
+
+.img-article{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+.img-author{
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DADADA;
+	font-size: 0.9em;
+	padding-left: 5px;
+}
+
+.text-article{
+	text-align: left;
+	padding: 0 0 0 30px;
+	border-bottom: 1px solid #DADADA;
+}
+
+.text-article p{
+	margin-top: 20px;
+	font-size: 1.2em;
+}
+
+.article-new-card{
+	margin-top: 15px;
+}
+
+.img-card{
+	width: 150px;
+	height: 100px;
+}
+
+.title-card{
+	font-size: 1em;
+	padding-left: 10px;
+	color: #000;
+	line-height: 20px;
+}
+
+.card-new{
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.title-card:hover{
+	color: #000;
+}
